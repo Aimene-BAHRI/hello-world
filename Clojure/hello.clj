@@ -1,5 +1,4 @@
-(ns clojure.examples.hello
-   (:gen-class))
-(defn hello-world []
+(ns hacktoberfest.hello)
+
+(defn -main []
    (println "Hello World"))
-(hello-world)

@@ -1,18 +1,20 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c;
-
+    int a,m,c;
+    
+    printf(" Enter First Number : ");
     scanf("%d" , &a);
-    scanf("%d" , &b);
-    printf("First Number:%d",a);
-    printf("Second Number:%d",b);
+    printf(" Enter Second Number : ");
+    scanf("%d" , &m);
     
     c=a;
-    a=b;
-    b=c;
-    printf("First Number:%d",a);
-    printf("Second Number:%d",b);
+    a=m;
+    m=c;
+    
+    printf(" After swapping ...\n\n");
+    printf(" First Number:%d",a);
+    printf("\n Second Number:%d",m);
 
-
+return 0;
 }
